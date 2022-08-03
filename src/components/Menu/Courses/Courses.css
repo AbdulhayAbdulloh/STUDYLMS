@@ -1,0 +1,217 @@
+#courses-title{
+    padding: 30px 0px;
+    background-color: #A6A6A6;
+}
+#courses-title h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 500;
+
+}
+
+#courses-list{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#courses-list:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.courses-linkes{
+    margin-left: 94px;
+    margin-top: 20px;
+}
+.courses-linkes span{
+    margin-left: 10px;
+    color: #AAAAAA;
+}
+.courses-linkes i{
+    color: #AAAAAA;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.showing-title{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px 30px 0px;
+}
+.showing-title span{
+    color: #9B9B9B;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.showing-title a{
+    color: #9B9B9B;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-indent: 10px;
+    position: relative;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+}
+.showing-title a i{
+    color: #9B9B9B;
+    font-size: 15px;
+    position: absolute;
+    top: 12px;
+    right: 5px;
+} 
+.courses-list_item{
+    display: flex;
+    justify-content: space-between;
+}
+.courses-list_card{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 850px;
+}
+.courses-list_category{
+    width: 270px;
+    margin-top: 75px;
+}
+.courses-list_category h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ECECEC;
+    position: relative;
+}
+.courses-list_category h4:after{
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #FFC000;
+    bottom: 0;
+    left: 0;
+}
+.courses-search{
+    margin-top: 30px !important;
+    border: 1px solid #E8E8E8;
+    position: relative;
+    height: 45px;
+}
+.courses-search input{
+      display: block;
+      border: none  !important;
+      text-indent: 20px;
+      color:#AAAAAA;
+      font-size: 17px!important;
+}
+.courses-search i{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color: #AAAAAA;
+    font-size: 15px;
+}
+.courses-list_category h4:nth-child(3){
+        margin-top: 50px;
+}
+.courses-name_list{
+    display: flex;
+    flex-direction: column;
+}
+.courses-name_list a{
+    color: #8D8D8D;
+    margin-top: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.courses-name_list a:hover{
+    color: #424242;
+}
+.courses-list_category h4:nth-child(5){
+    margin-top: 60px;
+}
+.courses-video{
+    position: relative;
+}
+.courses-video video{
+    width: 100%;
+    height: 240px;
+    background-color: #A6A6A6;
+    margin-top: 10px;
+}
+.courses-video i{
+    position: absolute;
+    top: 34%;
+    left: 36%;
+    font-size:32px;
+    color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    border: 3px solid white;
+    background-color: #797979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.courses-list_category h4:nth-child(7){
+    margin-top: 50px;
+}
+.popular-courses2{
+    margin-top: 30px;
+}
+.popular-courses_elem{
+    display: flex;
+    width:270px;
+    margin-top: 20px;
+
+}
+.popular-courses_elem img{
+    width: 80px;
+    height: 70px;
+    background-color: #D0D0D0;
+    margin-top: 12px;
+}
+.popular-courses_elem h6{
+    color: #222222;
+    font-size: 16px;
+    /* font-weight: 500; */
+    margin-left: 15px;
+    width: 170px;
+}
+.popular-courses_elem h6 span{
+    color: #179BD7;
+    display:block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.popular-courses_elem h6 .free{
+    color: #64BA62;
+}
+.coureses-list_next{
+    margin: 40px 0px;
+}
+.next-previuse{
+    display: flex;
+}
+.next-previuse a{
+    color: #444444;
+    padding: 5px 13px;
+    border: 1px solid #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    font-size: 17px;
+}.next-previuse a:nth-child(1){
+    background-color: #FFC000;
+    color: white;
+}
+
+.next-previuse a i{
+    color: #444444;
+}

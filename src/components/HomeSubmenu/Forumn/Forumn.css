@@ -1,0 +1,96 @@
+#forumn-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#forumn-main:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.courses-linkes{
+margin-left: 94px;
+margin-top: 20px;
+}
+.courses-linkes span{
+margin-left: 10px;
+color: #AAAAAA;
+}
+.courses-linkes i{
+color: #AAAAAA;
+margin-left: 10px;
+font-size: 12px;
+}
+
+.forumn-main_item{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.forumn-main_item-left{
+    max-width: 850px;
+}
+.forumn-main_item-left-table table{
+    border: 1px solid  #eeeeee;
+    width:850px !important;
+}
+.forumn-main_item-left-table table thead{
+    background-color: #353535;
+    color: #cccccc;
+}
+.forumn-main_item-left-table table thead th{
+    padding: 20px;
+}
+.forumn-main_item-left-table table tbody{
+    width: 850px ;
+}
+.forumn-main_item-left-table table tbody td {
+    color: #777777;
+    margin: 5px 15px 10px 10px;
+}
+.forumn-main_item-left-table table tbody td a{
+    color: #4b4b4b;
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.forumn-main_item-left-table table tbody td p{
+    color: #777777;
+    margin-top: -10px;
+    font-size: 14px;
+    width: 380px;
+}
+.forumn-main_item-left-table table tbody td span{
+    color: #ffdb8d;
+    display: block;
+    margin-top: 5px;
+}
+.forumn-main_item-left-table table .forumn-table-tr1{
+    background-color: #fcfcfc;
+}
+.forumn-main_item-left-table table .forumn-table-tr2{
+    background-color: white;
+}
+
+.forumn-main_item-left-table table td{
+    padding: 15px 0px 15px 25px;
+    margin-right: 10px;
+}
+
+.forumn-main_item-right{
+    width: 250px;
+}
+.forumn-main-category{
+    padding: unset;
+    margin: unset;
+    margin-top: -28px !important;
+}
+.forumn-main-category .courses-search{
+    margin: unset;
+}

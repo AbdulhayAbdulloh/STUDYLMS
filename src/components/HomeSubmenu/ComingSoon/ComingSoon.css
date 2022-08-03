@@ -1,0 +1,100 @@
+#coming-soon-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#coming-soon-main::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.coming-soon-main_item{
+    margin: 70px 0px;
+    text-align: center !important;
+}
+.coming-soon-main_item-title{
+    text-align: center;
+}
+.coming-soon-main_item-title h4{
+    color: #222222;
+    font-size: 27px;
+    font-weight:700 !important;
+    padding-bottom: 5px;
+}
+.coming-soon-main_item-title span{
+    width: 17%;
+    height: 2px;
+    background-color: #F2F2F2;
+    position: relative;
+    display: block;
+    text-align: center;
+    left: 40%;
+}
+.coming-soon-main_item-title span::after{
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #F7D063;
+    left: 42%;
+    bottom: 0;
+}
+.coming-soon-main_item-date{
+    margin-top: 40px;
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+    text-align: center !important;
+    margin-left: 400px !important;
+}
+.coming-soon-main_item-date-elem{
+    text-align: center;
+}
+.coming-soon-main_item-date-elem a{
+    width: 72px;
+    height: 76px;
+    background-color: #333333;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.coming-soon-main_item-date-elem span{
+    color: #B0B0B0;
+    font-weight: 500;
+}
+.coming-soon-main_item p{
+    color: #8C8C8C;
+    margin-top: 30px;
+    width: 562px;
+    text-align: center;
+    margin-left: 288px;
+}
+.coming-soon-main_item-emil {
+    display: flex;
+    margin-top: 40px !important;
+    text-align: center;
+    margin-left: 360px;
+}
+.coming-soon-main_item-emil input{
+    border: 1px solid #dbdbdf !important;
+    width: 300px !important;
+    height: 46px;
+    text-indent: 15px;
+}
+.coming-soon-main_item-emil a{
+    width: 120px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFC000;
+    color: white;
+    margin-right: -2px;
+}

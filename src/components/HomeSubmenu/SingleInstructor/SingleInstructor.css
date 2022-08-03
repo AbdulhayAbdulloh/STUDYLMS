@@ -1,0 +1,174 @@
+#single-instructor-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#single-instructor-main::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.single-instructor-main_item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+.single-instructor-main_left{
+    display: flex;
+    justify-content: space-between;
+}
+.single-instructor-main_left{
+    width: 250px !important;
+    display: flex;
+    flex-direction: column;
+}
+.single-instructor-main_left-elem1 img{
+    width: 100%;
+    height: 190px;
+    background-color: #d0d0d0;
+}
+.single-instructor-main_left-contact{
+    padding: 20px 40px;
+    background-color: #353535;
+    margin-top: -8px;
+}
+.single-instructor-main_left-contact a{
+    display: block;
+    color:#949494;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.single-instructor-main_left-contact a i{
+    color: #949494;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.single-instructor-main_left-networks{
+    padding-top: 10px;
+    border-top  : 1px solid #3D3D3D;
+    display: flex;
+    margin-top: 20px;
+}
+.single-instructor-main_left-networks a{
+    width: 26px;
+    height: 26px;
+    border-radius: 1px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: 5px;
+}
+.single-instructor-main_left-networks a i{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 10px;
+}
+.single-instructor-main_left-networks a:nth-child(1){
+    background-color: #3b5998;
+    margin-left: unset;
+}
+.single-instructor-main_left-networks a:nth-child(2){
+    background-color: #55acee;
+}
+.single-instructor-main_left-networks a:nth-child(3){
+    background-color: #dd4b39;
+}
+.single-instructor-main_left-networks a:nth-child(4){
+    background-color: #408cff;
+}
+.single-instructor-main_left-send-message{
+    margin-top: 20px;
+    width: 100%;
+}
+.single-instructor-main_left-send-message h4{
+    color: #222222;
+    font-size: 20px;
+    font-weight: 500;
+}
+.single-instructor-main_left-send-message input{
+    margin-top: 10px !important;
+    border: 1px solid #EDEDED !important;
+    text-indent: 15px;
+}
+.single-instructor-main_left-send-message textarea{
+    height: 150px;
+    border: 1px solid #EDEDED !important;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-indent: 15px;
+    margin-bottom: 20px;
+}
+.single-instructor-main_left-send-message a{
+    padding: 8px 15px;
+    background-color: #ffc000;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 1px;
+    transition: 0.3s;
+}
+.single-instructor-main_left-send-message a:hover{
+    background-color: #353535;
+}
+
+
+.single-instructor-main_right{
+    width: 850px !important;
+}
+.single-instructor-main_right-details{
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+}
+.single-instructor-main_right-details h6{
+    color: #222222;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:28px;
+}
+.single-instructor-main_right-details ul{
+    margin-top: 0px;
+}
+.single-instructor-main_right-details ul li{
+    list-style: disc !important;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.single-instructor-main_right-details ul li p{
+    color: #777777;
+    font-style: arial;
+}
+.single-instructor-main_right h5{
+    color: #353535;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.single-instructor-main_right p{
+    color: #777777;
+}
+.single-instructor-main_right table{
+    border: 1px solid #F2F2F2;
+    padding: 10px !important;
+}
+.single-instructor-main_right table tbody .instructor-table-tr1{
+    background-color:#FCFCFC;
+}   
+.single-instructor-main_right table td{
+    margin-left: 10px !important;
+    color: #B7B7B7;
+    padding: 15px;
+}
+.single-instructor-main_right table thead{
+    background-color: #FFC000;
+    color: #5A4E29 !important;
+}
+.single-instructor-main_right table thead th{
+    padding: 15px;
+}

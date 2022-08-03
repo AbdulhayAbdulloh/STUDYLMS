@@ -1,0 +1,188 @@
+#cart-page-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#cart-page-main::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.cart-page-main-uptitle{
+    margin-top: 80px;
+}
+.cart-page-main-uptitle a{
+    display: block;
+    background-color: #F6F6F6;
+    color: #222222;
+    border-top: 2px solid #555555;
+    margin-top: 30px;
+    padding: 20px 0px;
+    text-indent: 20px;
+    font-size: 17px;
+}
+.cart-page-main_item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.cart-page-main_item-left{
+    max-width: 550px;
+}
+.cart-page-main_item-left h4{
+    color: #222222;
+    font-size: 26px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.cart-page-main_item_details1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 550px !important;
+}
+.cart-page-main_item_details1 input{
+    border: 1px solid #EAEAEA !important;
+    width: 250px;
+    height: 44px;
+    border-radius: 4px !important;
+    width: 95% !important;
+    padding-top: 4px;
+}
+.cart-page-main_item_details1 label{
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.cart-page-main_item_details2{
+    margin-top: 15px;
+    position: relative;
+    width: 550px !important;
+}
+.cart-page-main_item_details1 .details-input2 input{
+    margin-left: 15px;
+}
+.cart-page-main_item_details1 .details-input2 label{
+    margin-left: 15px;
+}
+.cart-page-main_item_details2 i{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    color:#666666;
+}
+.cart-page-main_item_details2 input{
+    border: 1px solid #EAEAEA !important;
+    width: 100%;
+    height: 44px;
+    text-indent: 15px;
+    border-radius: 4px !important;
+}
+.cart-page-main_item_details2 label{
+    color: #666666;
+    font-size: 16px;
+}   
+.cart-page-main_item_details1-check{
+    display: flex;
+    margin-top: 30px;
+}
+.cart-page-main_item_details1-check input{
+    color: grey;
+    border: 2px solid lightgray !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 1px;
+    display: block;
+    margin-top: 5px !important;
+}
+.cart-page-main_item_details1-check a{
+    color: #777777;
+    margin-left:8px;
+}
+.cart-page-main_item_details3 {
+    margin-top:10px ;
+}
+.cart-page-main_item_details3 textarea{
+    border: 1px solid #EAEAEA !important;
+    width: 100%;
+    height: 70px  !important;
+    text-indent: 15px;
+    border-radius: 4px !important;
+}
+.cart-page-main_item_details3 label{
+    color: #666666;
+    font-size: 16px;
+} 
+.cart-page-main-order h4{
+    color: #222222;
+    font-size: 26px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.cart-page-main-order table{
+    border: 1px solid #E8E8E8;
+}
+.cart-page-main-order table tr th{
+    padding:20px !important;
+}
+.cart-page-main-order table tr td{
+    padding: 20px !important;
+} 
+.free-charge-td{
+    color: #8D8D8D;
+    font-weight: 500;
+}
+.free-charge-td span{
+    color: #222222;
+    margin-left: 5px;
+}
+.cart-page-main_direct-bank{
+    margin-top: 30px;
+    background-color: #F6F6F6;  
+    padding: 30px;
+
+}
+.cart-page-main_direct-bank a{
+    color: #646464;  
+    font-weight: 500;
+}
+.cart-page-main_direct-bank p{
+    color: #888888;
+    padding: 10px 15px;
+    background-color: white;
+    margin-top: 15px;
+}
+.cart-page-main_direct-bank_elem2{
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #E8E8E8; 
+    display: flex;
+    justify-content: space-between;
+}
+.cart-page-main_direct-bank_elem2 a{
+    color: #646464;  
+}
+.cart-page-main_direct-bank_elem2 span{
+    color: #6B9FC0;
+    font-weight: 500;
+}
+.place-order{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.place-order a{
+    padding: 15px 25px;
+    background-color: #FFC000;
+    border-radius: 1px;
+    color: white;
+    font-size: 16px;
+}
+.place-order a:hover{
+    background-color: #222222;
+    color: white;
+}

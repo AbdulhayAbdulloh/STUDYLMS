@@ -1,0 +1,116 @@
+#shop-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#shop-main::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.shop-main_item{
+    margin:70px 0px 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.shop-main_item-left{
+    max-width: 850px;
+}
+.shop-main_item-left-sorting{
+    display: flex;
+    justify-content: space-between;
+}
+.shop-main_item-left-sorting span{
+    color: #cfcfcf;
+    margin-top: 10px;
+}
+.shop-main_item-left-sorting a{
+    width: 250px;
+    padding: 10px 10px;
+    color: #c7c7c7;
+    border: 1px solid #e8e8e8;
+    position: relative;
+}
+.shop-main_item-left-sorting a i{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    color:#c7c7c7;
+    font-size: 14px;
+}
+.shop-main_item-left_shopcard{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shop-main_item-left_shopcard{
+    margin-bottom: 20px;
+}
+.next-page{
+    padding-top: 30px;
+    margin-top: 20px;
+    border-top: 1px solid #eeeeee;
+}
+.next-page_step{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+.next-page_step a{
+    width: 36px;
+    height: 36px;
+    border: 2px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: #444444;
+}
+.next-page_step a:nth-child(1){
+    color: white;
+    background-color:#ffc000;
+}
+.next-page_step a i{
+    color: #444444;
+    font-size: 14px !important;
+}
+.next-page_step a:hover{
+    color: white;
+    background-color:#ffc000;
+}
+.shop-main_item-right{
+    width: 250px;
+}
+.shop-list_category{
+    margin-top: -32px;
+}
+.shop-list_category h4{
+    margin-top: 30px;
+}
+.popular-product_elem img{
+    height: 80px;
+    width: 70px;
+}
+.popular-products a i{
+    color:#ecc53f;
+    font-size: 11px;
+}
+.popular-products a{
+    display: block;
+    margin-left: 15px
+}
+.popular-products span{
+    display: block;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: #252525;
+    font-weight: 500;
+}
+.popular-products h6{
+    color: #252525;
+    font-weight: 500;
+}

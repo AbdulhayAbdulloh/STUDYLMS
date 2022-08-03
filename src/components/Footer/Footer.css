@@ -1,0 +1,170 @@
+#footer{
+    padding: 60px 0px 30px 0px;
+    background-color: #1F2223;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.footer-logo{
+    margin-top: 30px;
+    width: 260px;
+}
+
+.footer-logo a{
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+.footer-logo a i{
+    font-size: 35px;
+    margin-right: 10px;
+    color: white;
+    color: #EDBE41;
+}
+.footer-logo p{
+    color: #777777;
+    margin: 20px 0px;
+    padding-bottom: 30px;
+}
+.footer-logo .learning{
+        padding: 13px 12px;
+        text-transform: uppercase;
+        font-weight:600;
+        color: #868787;
+        margin-top: 20px;
+        border: 1px solid #868787;
+        font-size: 13px;
+        cursor: pointer;
+        transition: 0.2s;
+        border-radius: 3px;
+}
+.footer-logo .learning:hover{
+    background-color: #282A36;
+    color: white;
+}   
+.footer-courses{
+    width: 280px;
+}
+.footer-courses h4{
+    color: #D0D0CF;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #303234;
+    font-size: 20px;
+}
+.popular-courses{
+    display: flex;
+    margin-top: 5px;
+}
+.popular-courses img{
+    width: 60px;
+    height: 60px;
+    background-color: #D0D0CF;
+    margin-top: 20px;
+}
+.popular-courses p{
+    color: #777777;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.popular-courses span{
+    color: #327399;
+    font-weight: 500;
+}
+.popular-courses .free{
+    color: #56A859;
+}
+.footer-link{
+    width: 250px;
+}
+.footer-link h4{
+    color: #D0D0CF;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #303234;
+    font-size: 20px;
+}
+.footer-link ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.footer-link ul li {
+    margin-top: 12px;
+    list-style-type: disc;
+    color:#777777;
+}
+.footer-link ul li a{
+    color:#777777;
+    font-size: 17px;
+    cursor: pointer;
+}
+.footer-contact{
+    width: 300px;
+}
+.footer-contact h4{
+    color: #D0D0CF;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #303234;
+    font-size: 20px;
+}
+.footer-contact p{
+    color: #777777;
+    margin-top: 30px !important;
+    padding-bottom: 30px;
+}
+.footer-contact i{
+    color: #EDBE41;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.footer-contact a{
+    color: #AAAAAA;
+    display: flex;
+}
+.footer-contact span{
+    margin-left: 10px;
+    color: #777777;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom {
+    color: #6E6F70;
+    padding-top: 30px;
+    border-top: 1px solid #26292A;
+}
+.footer-bottom p{
+    margin-top: 20px;
+}
+.social-network{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.social-network a{
+    width: 40px;
+    height: 40px;
+    background-color: #2D3031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.social-network a:hover{
+    background-color: #EDBE41;
+}
+.social-network a:hover i{
+    color: black;
+}
+.social-network a i{
+    color: #999999;
+    font-size: 20px;
+}

@@ -1,0 +1,32 @@
+#instructors-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#instructors-main:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.courses-linkes{
+    margin-left: 94px;
+    margin-top: 20px;
+}
+.courses-linkes span{
+    margin-left: 10px;
+    color: #AAAAAA;
+}
+.courses-linkes i{
+    color: #AAAAAA;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.instructors-main_item{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}

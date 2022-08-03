@@ -1,0 +1,226 @@
+#contact-title{
+    padding: 20px 0px 50px 0px;
+    background-color: #a6a6a6;
+}
+#contact-title h4{
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+#contact-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#contact-main::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.courses-linkes{
+    margin-left: 94px;
+    margin-top: 20px;
+}
+.courses-linkes span{
+    margin-left: 10px;
+    color: #AAAAAA;
+}
+.courses-linkes i{
+    color: #AAAAAA;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.contact-main_item{
+    margin-top: 70px;
+}
+.contact-main_item-title{
+    text-align: center;
+}
+.contact-main_item-title h4{
+    color: #222222;
+    font-size: 27px;
+    font-weight: 500;
+}
+.contact-main_item-title p{
+    color: #C4C4C4;
+}
+.contact-main_item-title span{
+    width: 280px;
+    height: 1px;
+    background-color: #FBFBFB;
+    display: block !important;
+    position: relative;
+    margin-top: 20px;
+    left: 37%;
+}
+.contact-main_item-title span:after{
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: #FCEFCB;
+    left: 40%;
+    bottom: 0;
+}
+.contact-main_item-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contact-main_item-detail_elem{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-main_item-detail_elem a i{
+    color: #FFC412;
+    font-size:35px;
+    margin-top: 17px;
+    margin-right: 15px;
+}
+.contact-main_item-detail_elem h5{
+    color: #2E2E2E;
+    font-size: 15px;
+    font-weight: 500;
+}
+.contact-main_item-detail_elem h5 span{
+    display: block;
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 10px;
+}
+.contact-main_item h6{
+    color: #A2A2A2;
+    font-size: 14px;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+.contact-main_item h6::after{
+    position: absolute;
+    content: '';
+    width: 48%;
+    height: 2px;
+    background-color:#FBFBFB;
+    right: 0;
+    top: 10px;
+}
+.contact-main_item h6::before{
+    position: absolute;
+    content: '';
+    width: 48%;
+    height: 2px;
+    background-color:#FBFBFB;
+    left: 0;
+    top: 10px;
+}
+.contact-main_drop-message{
+    margin-top: 60px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-main_drop-message h4{
+    color: #222222;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 15px;
+}
+.contact-main_drop-message h4::after{
+    position: absolute;
+    content: '';
+    width: 4%;
+    height: 3px;
+    background-color:#FCF0CB;
+    left: 47%;
+    bottom: 0;
+}
+.contact-main_drop-message-enter{
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px;
+}
+.contact-main_drop-message-enter input{
+    border: 1px solid #EEEEEE !important;
+    text-indent: 15px;
+    width: 49% !important;
+    height: 38px;
+}
+.contact-main_drop-message-enter2{
+    margin-top:17px;
+}
+.contact-main_drop-message-enter2 textarea{
+    border: 1px solid #EEEEEE !important;
+    text-indent: 15px;
+    height: 150px !important;
+    padding-top: 10px;
+} 
+.contact-main_drop-message-enter2{
+    padding-bottom: 30px;
+}  
+.contact-main_drop-message a{
+    padding: 12px 20px;
+    background-color: #FFC000;
+    color: white;
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 1px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.contact-main_drop-message a:hover{
+    background-color: #535353;
+}
+
+#contact-map{
+    height:300px;
+     background-color: #D0D0D0;
+     position: relative;
+}
+#contact-map i{
+    color: #FB670B;
+    position: absolute;
+    top: 20%;
+    font-size: 35px;
+    left: 60%;
+}
+#have-question{
+    padding: 25px 0px;
+}
+.have-question_item{
+    display: flex;
+    justify-content: space-between;
+}
+.have-question_item h5{
+    color: #343434;
+    font-size: 24px;
+    font-weight: 600 !important;
+}
+.have-question_item h5 span{
+    color: #CCCCCC;
+    font-size: 13px;
+    display: block;
+    font-weight: 400;
+}
+.have-question_item a{
+    color:black;
+    width: 150px;
+    height: 44px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc000;
+    margin-top: 20px;
+    border-radius: 1px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.have-question_item a:hover{
+    background-color: #535353;
+    color: white;
+}

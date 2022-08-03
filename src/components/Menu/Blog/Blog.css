@@ -1,0 +1,140 @@
+#blog-title{
+    padding: 20px 0px 50px 0px;
+    background-color: #a6a6a6;
+}
+#blog-title h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+#blog-main{
+    padding: 0px 0px 50px 0px;
+    position: relative;
+}
+#blog-main::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #EEEEEE;
+    left: 0;
+    top: 40px;
+}
+.courses-linkes{
+    margin-left: 94px;
+    margin-top: 20px;
+}
+.courses-linkes span{
+    margin-left: 10px;
+    color: #AAAAAA;
+}
+.courses-linkes i{
+    color: #AAAAAA;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.blog-main_item{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-main_item-left{
+    max-width: 850px;
+
+}
+.blog-main_item-left_block{
+    display: flex;
+}
+.blog-main_item-date{
+    display: flex;
+    flex-direction: column;
+}
+.blog-main_item-date a{
+    padding: 8px 13px;
+    color: #555555;
+    display: block;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+}
+.blog-main_item-date a:nth-child(1){
+    border-bottom:none;
+    font-size: 18px;
+}
+.blog-main_item-date a:nth-child(2){
+    font-size: 14px;
+}
+
+.blog-main_item-image img{
+    width: 790px;
+    height: 400px;
+    background-color: #d0d0d0;
+    margin-left: 15px;
+}
+.blog-main_item-left_elem h4{
+    color: #222222;
+    font-size: 25px;
+    font-weight: 500;
+}
+.blog-give-result a{
+    color: #9a9898;
+    margin-left: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.blog-give-result a:nth-child(1){
+    margin: unset;
+}
+.blog-give-result a i{
+    margin-right: 6px;
+    color: #9a9898;;
+}
+.blog-main_item-left_elem{
+    margin-top: 40px;
+}
+.blog-main_item-left_elem p{
+    color: #767676;
+    margin-top: 20px;
+  
+    padding-bottom: 25px;
+}
+.blog-main_item-left_elem .blog-read-more{
+    padding: 10px 20px;
+    border: 1px solid #e8e8e8;
+    font-size: 13px;
+    font-weight: 500;
+    color: #868686;
+
+}
+.blog-main_item-left_elem .blog-read-more:hover{
+    background-color: #222222;
+    color: white;
+    cursor: pointer;
+}
+.blog-take-inform{
+    margin-left: 70px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.blog-main_item-right{
+    width: 250px !important;
+}
+.blog-main-category{
+    margin: unset;
+    margin-top: 0px !important;
+    padding-top: 8px;
+}
+.courses-search3{
+    margin: unset;
+    margin-top: 5px !important;
+}
+.next-step2{
+    margin-left: 60px;
+}
+.popular-courses3 h6{
+    color: #222222 !important;
+}
+.popular-courses3 span{
+    color: #e3e3e3 !important;
+    font-weight: 400 !important;
+}

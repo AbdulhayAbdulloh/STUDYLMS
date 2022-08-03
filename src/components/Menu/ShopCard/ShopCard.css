@@ -1,0 +1,55 @@
+.shop-card{
+    display: flex;
+    justify-content: center;
+}
+
+.shop-card-item_image img{
+    width: 250px;
+    height: 280px;
+    background-color:#e5e5e5;
+    border: none !important;
+}
+.shop-card-item a:nth-child(2){
+    color: #545454;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: block;
+}
+.shop-card-item a:nth-child(3){
+    display: flex;
+    display: block;
+}
+.shop-card-item a:nth-child(3) i{
+    color:#ecc53f;
+    font-size: 11px;
+}
+.shop-card-item a:nth-child(3) i:nth-child(5){
+    color: #c2c2c2;
+}
+.shop-card-item a:nth-child(4){
+    color:#252525;
+    display: block;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.shop-card-item a:nth-child(5){
+    color:#adadad;
+    padding: 8px 15px;
+    border: 2px solid #e8e8e8;
+    transition: 0.3s;
+    font-size: 13px;
+    display: inline-block;
+    margin-bottom:30px;
+    font-weight: 500;
+}
+.shop-card-item a:nth-child(5):hover{
+    background-color: #ffc000;
+    color: white;
+}
+
+
+
+
